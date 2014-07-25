@@ -27,6 +27,7 @@ public class GeneratorMain {
 //		g.generateByClass(Blog.class,"templattemplates/bootstrap_jfinal/templatee_clazz");
 		g.generateByTable("mgt_banji","templates/zhishu");
 		g.generateByTable("mgt_school","templates/zhishu");
+		
 //		g.deleteByTable("table_name", "template"); //删除生成的文件
 		//打开文件夹
 //		Runtime.getRuntime().exec("cmd.exe /c start "+GeneratorProperties.getRequiredProperty("outRoot"));
